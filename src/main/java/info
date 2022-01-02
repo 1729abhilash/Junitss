@@ -1,0 +1,38 @@
+Test life cycle
+initialize before anything in theis class runs
+initialize befoer each method
+teardown after eacch method
+tear down after all methods are done
+
+lifecycle hooks
+1.@BeforeAll
+2.@AfterAll
+3.@BeforeEach
+4.@AfterEach
+
+
+test instance
+new instance created per test
+
+@Testinstance
+
+annptation to scale your tests
+@Display name
+
+annotaions to scale your tests
+@Disabled
+
+conditional execution when you want to execute on some condition
+like
+@EnabledOnOs(OS.LINUX)
+@EnableOnJre(JRE.JAVA_11)
+@EnableIF
+@EnableIfSystemProperty
+@EnabledIfEnvironmentVariable
+
+
+handling external factors
+
+
+assertAll
+
